@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not show the close button if \`shouldHideCloseButton\` is true 1`] = `
+<ModalStandard
+  isOpen={false}
+  onCloseClick={[Function]}
+  shouldCloseOnBackdropClick={true}
+  shouldHideCloseButton={true}
+  theme="faint"
+>
+  <ModalBase
+    contentsMaxWidth="600px"
+    isOpen={false}
+    onCloseClick={[Function]}
+    shouldCloseOnBackdropClick={true}
+  >
+    <Displaced
+      contentsMaxWidth="600px"
+      isOpen={false}
+      mounted={true}
+      onCloseClick={[Function]}
+      shouldCloseOnBackdropClick={true}
+    >
+      <Portal
+        containerInfo={
+          <div>
+            <div
+              class="modalStructureBackdrop modalStructureBackdropAnimated"
+              style="padding: 48px 20px;"
+            >
+              <div
+                class="modalContents modalContentsAnimated"
+                style="max-width: 600px;"
+              >
+                <div
+                  class="contents"
+                />
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <ModalStructure
+          assistiveTitle="Modal"
+          backdropPadding="48px 20px"
+          contentsMaxWidth="600px"
+          isOpen={false}
+          mounted={true}
+          onCloseClick={[Function]}
+          shouldAnimate={true}
+          shouldCloseOnBackdropClick={true}
+          shouldCloseOnEscape={true}
+        >
+          <FocusTrap
+            _createFocusTrap={[Function]}
+            active={false}
+            focusTrapOptions={Object {}}
+            paused={false}
+          >
+            <div
+              className="modalStructureBackdrop modalStructureBackdropAnimated"
+              style={
+                Object {
+                  "padding": "48px 20px",
+                }
+              }
+            >
+              <OnClickOutside(ModalContents)
+                aria-label="Modal"
+                contentsMaxWidth="600px"
+                disableOnClickOutside={true}
+                eventTypes={
+                  Array [
+                    "mousedown",
+                    "touchstart",
+                  ]
+                }
+                excludeScrollbar={false}
+                isOpen={false}
+                onCloseClick={[Function]}
+                outsideClickIgnoreClass="ignore-react-onclickoutside"
+                preventDefault={false}
+                role="dialog"
+                shouldAnimate={true}
+                stopPropagation={false}
+              >
+                <ModalContents
+                  aria-label="Modal"
+                  contentsMaxWidth="600px"
+                  disableOnClickOutside={[Function]}
+                  enableOnClickOutside={[Function]}
+                  eventTypes={
+                    Array [
+                      "mousedown",
+                      "touchstart",
+                    ]
+                  }
+                  isOpen={false}
+                  onCloseClick={[Function]}
+                  outsideClickIgnoreClass="ignore-react-onclickoutside"
+                  preventDefault={false}
+                  role="dialog"
+                  shouldAnimate={true}
+                  stopPropagation={false}
+                >
+                  <div
+                    className="modalContents modalContentsAnimated"
+                    style={
+                      Object {
+                        "maxWidth": "600px",
+                      }
+                    }
+                  >
+                    <div
+                      className="contents"
+                    />
+                  </div>
+                </ModalContents>
+              </OnClickOutside(ModalContents)>
+            </div>
+          </FocusTrap>
+        </ModalStructure>
+      </Portal>
+    </Displaced>
+  </ModalBase>
+</ModalStandard>
+`;
+
+exports[`renders a basic modal 1`] = `
+<ModalStandard
+  isOpen={false}
+  onCloseClick={[Function]}
+  shouldCloseOnBackdropClick={true}
+  shouldHideCloseButton={false}
+  theme="faint"
+>
+  <ModalBase
+    contentsMaxWidth="600px"
+    isOpen={false}
+    onCloseClick={[Function]}
+    shouldCloseOnBackdropClick={true}
+  >
+    <Displaced
+      contentsMaxWidth="600px"
+      isOpen={false}
+      mounted={true}
+      onCloseClick={[Function]}
+      shouldCloseOnBackdropClick={true}
+    >
+      <Portal
+        containerInfo={
+          <div>
+            <div
+              class="modalStructureBackdrop modalStructureBackdropAnimated"
+              style="padding: 48px 20px;"
+            >
+              <div
+                class="modalContents modalContentsAnimated"
+                style="max-width: 600px;"
+              >
+                <div
+                  class="contents"
+                >
+                  <button
+                    class="closeButton"
+                    type="button"
+                  >
+                    <svg
+                      class="closeIcon"
+                      fill="currentColor"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <ModalStructure
+          assistiveTitle="Modal"
+          backdropPadding="48px 20px"
+          contentsMaxWidth="600px"
+          isOpen={false}
+          mounted={true}
+          onCloseClick={[Function]}
+          shouldAnimate={true}
+          shouldCloseOnBackdropClick={true}
+          shouldCloseOnEscape={true}
+        >
+          <FocusTrap
+            _createFocusTrap={[Function]}
+            active={false}
+            focusTrapOptions={Object {}}
+            paused={false}
+          >
+            <div
+              className="modalStructureBackdrop modalStructureBackdropAnimated"
+              style={
+                Object {
+                  "padding": "48px 20px",
+                }
+              }
+            >
+              <OnClickOutside(ModalContents)
+                aria-label="Modal"
+                contentsMaxWidth="600px"
+                disableOnClickOutside={true}
+                eventTypes={
+                  Array [
+                    "mousedown",
+                    "touchstart",
+                  ]
+                }
+                excludeScrollbar={false}
+                isOpen={false}
+                onCloseClick={[Function]}
+                outsideClickIgnoreClass="ignore-react-onclickoutside"
+                preventDefault={false}
+                role="dialog"
+                shouldAnimate={true}
+                stopPropagation={false}
+              >
+                <ModalContents
+                  aria-label="Modal"
+                  contentsMaxWidth="600px"
+                  disableOnClickOutside={[Function]}
+                  enableOnClickOutside={[Function]}
+                  eventTypes={
+                    Array [
+                      "mousedown",
+                      "touchstart",
+                    ]
+                  }
+                  isOpen={false}
+                  onCloseClick={[Function]}
+                  outsideClickIgnoreClass="ignore-react-onclickoutside"
+                  preventDefault={false}
+                  role="dialog"
+                  shouldAnimate={true}
+                  stopPropagation={false}
+                >
+                  <div
+                    className="modalContents modalContentsAnimated"
+                    style={
+                      Object {
+                        "maxWidth": "600px",
+                      }
+                    }
+                  >
+                    <div
+                      className="contents"
+                    >
+                      <button
+                        className="closeButton"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <NavigationCloseMedium
+                          className="closeIcon"
+                          fill="currentColor"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          width="28"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="closeIcon"
+                            fill="currentColor"
+                            height="28"
+                            viewBox="0 0 28 28"
+                            width="28"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                            />
+                          </svg>
+                        </NavigationCloseMedium>
+                      </button>
+                    </div>
+                  </div>
+                </ModalContents>
+              </OnClickOutside(ModalContents)>
+            </div>
+          </FocusTrap>
+        </ModalStructure>
+      </Portal>
+    </Displaced>
+  </ModalBase>
+</ModalStandard>
+`;
+
+exports[`renders a basic modal with content 1`] = `
+<ModalStandard
+  isOpen={false}
+  onCloseClick={[Function]}
+  shouldCloseOnBackdropClick={true}
+  shouldHideCloseButton={false}
+  theme="faint"
+>
+  <ModalBase
+    contentsMaxWidth="600px"
+    isOpen={false}
+    onCloseClick={[Function]}
+    shouldCloseOnBackdropClick={true}
+  >
+    <Displaced
+      contentsMaxWidth="600px"
+      isOpen={false}
+      mounted={true}
+      onCloseClick={[Function]}
+      shouldCloseOnBackdropClick={true}
+    >
+      <Portal
+        containerInfo={
+          <div>
+            <div
+              class="modalStructureBackdrop modalStructureBackdropAnimated"
+              style="padding: 48px 20px;"
+            >
+              <div
+                class="modalContents modalContentsAnimated"
+                style="max-width: 600px;"
+              >
+                <div
+                  class="contents"
+                >
+                  <p>
+                    Hi there!
+                  </p>
+                  <button
+                    type="button"
+                  >
+                    Submit
+                  </button>
+                  <button
+                    class="closeButton"
+                    type="button"
+                  >
+                    <svg
+                      class="closeIcon"
+                      fill="currentColor"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <ModalStructure
+          assistiveTitle="Modal"
+          backdropPadding="48px 20px"
+          contentsMaxWidth="600px"
+          isOpen={false}
+          mounted={true}
+          onCloseClick={[Function]}
+          shouldAnimate={true}
+          shouldCloseOnBackdropClick={true}
+          shouldCloseOnEscape={true}
+        >
+          <FocusTrap
+            _createFocusTrap={[Function]}
+            active={false}
+            focusTrapOptions={Object {}}
+            paused={false}
+          >
+            <div
+              className="modalStructureBackdrop modalStructureBackdropAnimated"
+              style={
+                Object {
+                  "padding": "48px 20px",
+                }
+              }
+            >
+              <OnClickOutside(ModalContents)
+                aria-label="Modal"
+                contentsMaxWidth="600px"
+                disableOnClickOutside={true}
+                eventTypes={
+                  Array [
+                    "mousedown",
+                    "touchstart",
+                  ]
+                }
+                excludeScrollbar={false}
+                isOpen={false}
+                onCloseClick={[Function]}
+                outsideClickIgnoreClass="ignore-react-onclickoutside"
+                preventDefault={false}
+                role="dialog"
+                shouldAnimate={true}
+                stopPropagation={false}
+              >
+                <ModalContents
+                  aria-label="Modal"
+                  contentsMaxWidth="600px"
+                  disableOnClickOutside={[Function]}
+                  enableOnClickOutside={[Function]}
+                  eventTypes={
+                    Array [
+                      "mousedown",
+                      "touchstart",
+                    ]
+                  }
+                  isOpen={false}
+                  onCloseClick={[Function]}
+                  outsideClickIgnoreClass="ignore-react-onclickoutside"
+                  preventDefault={false}
+                  role="dialog"
+                  shouldAnimate={true}
+                  stopPropagation={false}
+                >
+                  <div
+                    className="modalContents modalContentsAnimated"
+                    style={
+                      Object {
+                        "maxWidth": "600px",
+                      }
+                    }
+                  >
+                    <div
+                      className="contents"
+                    >
+                      <p>
+                        Hi there!
+                      </p>
+                      <button
+                        type="button"
+                      >
+                        Submit
+                      </button>
+                      <button
+                        className="closeButton"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <NavigationCloseMedium
+                          className="closeIcon"
+                          fill="currentColor"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          width="28"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="closeIcon"
+                            fill="currentColor"
+                            height="28"
+                            viewBox="0 0 28 28"
+                            width="28"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                            />
+                          </svg>
+                        </NavigationCloseMedium>
+                      </button>
+                    </div>
+                  </div>
+                </ModalContents>
+              </OnClickOutside(ModalContents)>
+            </div>
+          </FocusTrap>
+        </ModalStructure>
+      </Portal>
+    </Displaced>
+  </ModalBase>
+</ModalStandard>
+`;
+
+exports[`shows the close button if \`shouldHideCloseButton\` is false 1`] = `
+<ModalStandard
+  isOpen={false}
+  onCloseClick={[Function]}
+  shouldCloseOnBackdropClick={true}
+  shouldHideCloseButton={false}
+  theme="faint"
+>
+  <ModalBase
+    contentsMaxWidth="600px"
+    isOpen={false}
+    onCloseClick={[Function]}
+    shouldCloseOnBackdropClick={true}
+  >
+    <Displaced
+      contentsMaxWidth="600px"
+      isOpen={false}
+      mounted={true}
+      onCloseClick={[Function]}
+      shouldCloseOnBackdropClick={true}
+    >
+      <Portal
+        containerInfo={
+          <div>
+            <div
+              class="modalStructureBackdrop modalStructureBackdropAnimated"
+              style="padding: 48px 20px;"
+            >
+              <div
+                class="modalContents modalContentsAnimated"
+                style="max-width: 600px;"
+              >
+                <div
+                  class="contents"
+                >
+                  <button
+                    class="closeButton"
+                    type="button"
+                  >
+                    <svg
+                      class="closeIcon"
+                      fill="currentColor"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      width="28"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <ModalStructure
+          assistiveTitle="Modal"
+          backdropPadding="48px 20px"
+          contentsMaxWidth="600px"
+          isOpen={false}
+          mounted={true}
+          onCloseClick={[Function]}
+          shouldAnimate={true}
+          shouldCloseOnBackdropClick={true}
+          shouldCloseOnEscape={true}
+        >
+          <FocusTrap
+            _createFocusTrap={[Function]}
+            active={false}
+            focusTrapOptions={Object {}}
+            paused={false}
+          >
+            <div
+              className="modalStructureBackdrop modalStructureBackdropAnimated"
+              style={
+                Object {
+                  "padding": "48px 20px",
+                }
+              }
+            >
+              <OnClickOutside(ModalContents)
+                aria-label="Modal"
+                contentsMaxWidth="600px"
+                disableOnClickOutside={true}
+                eventTypes={
+                  Array [
+                    "mousedown",
+                    "touchstart",
+                  ]
+                }
+                excludeScrollbar={false}
+                isOpen={false}
+                onCloseClick={[Function]}
+                outsideClickIgnoreClass="ignore-react-onclickoutside"
+                preventDefault={false}
+                role="dialog"
+                shouldAnimate={true}
+                stopPropagation={false}
+              >
+                <ModalContents
+                  aria-label="Modal"
+                  contentsMaxWidth="600px"
+                  disableOnClickOutside={[Function]}
+                  enableOnClickOutside={[Function]}
+                  eventTypes={
+                    Array [
+                      "mousedown",
+                      "touchstart",
+                    ]
+                  }
+                  isOpen={false}
+                  onCloseClick={[Function]}
+                  outsideClickIgnoreClass="ignore-react-onclickoutside"
+                  preventDefault={false}
+                  role="dialog"
+                  shouldAnimate={true}
+                  stopPropagation={false}
+                >
+                  <div
+                    className="modalContents modalContentsAnimated"
+                    style={
+                      Object {
+                        "maxWidth": "600px",
+                      }
+                    }
+                  >
+                    <div
+                      className="contents"
+                    >
+                      <button
+                        className="closeButton"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <NavigationCloseMedium
+                          className="closeIcon"
+                          fill="currentColor"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          width="28"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <svg
+                            className="closeIcon"
+                            fill="currentColor"
+                            height="28"
+                            viewBox="0 0 28 28"
+                            width="28"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M15.414 14l5.658-5.657a1 1 0 1 0-1.415-1.414L14 12.586 8.343 6.929a1 1 0 0 0-1.414 1.414L12.586 14l-5.657 5.657a1 1 0 1 0 1.414 1.414L14 15.414l5.66 5.66a.996.996 0 0 0 1.408 0 1.004 1.004 0 0 0 0-1.42L15.414 14z"
+                            />
+                          </svg>
+                        </NavigationCloseMedium>
+                      </button>
+                    </div>
+                  </div>
+                </ModalContents>
+              </OnClickOutside(ModalContents)>
+            </div>
+          </FocusTrap>
+        </ModalStructure>
+      </Portal>
+    </Displaced>
+  </ModalBase>
+</ModalStandard>
+`;

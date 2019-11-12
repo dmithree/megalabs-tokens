@@ -1,0 +1,25 @@
+// TS config for generate type delcaration files only. This does not produce any JS code.
+// These .d.ts files are included in the dist directory along with the Rollup output, so that
+// types are available to consumers of the library.
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        // Default to generating types for the ES Modules, we also override this to produce types
+        // for the CJS modules in the `generateTypeDeclarations` script in `package.json`.
+        "outDir": "./dist/es",
+        "rootDir": ".",
+        "declaration": true,
+        "declarationMap": true,
+        "isolatedModules": false,
+        "noEmit": false,
+        "allowJs": false,
+        "emitDeclarationOnly": true,
+        // Disable this for now, because we're in the process of converting, and our TS code imports
+        // JS code, which implicitly has an `any` type because it has no type information.
+        // TODO: once we have converted the whole codebase, and there is no JS code, we can
+        // re-enable this rule.
+        "noImplicitAny": false
+    },
+    "include": ["index.ts", "components/**/*.tsx", "../../typings/**/*"],
+    "exclude": ["**/*test.tsx"]
+}
