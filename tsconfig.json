@@ -1,26 +1,13 @@
 {
     "compilerOptions": {
-        "declaration": false,
-        "allowJs": true,
-        "checkJs": false,
-        "allowSyntheticDefaultImports": true,
-        "jsx": "preserve",
-        "lib": ["dom", "es2017"],
-        "module": "esnext",
-        "target": "esnext",
-        "moduleResolution": "node",
-        "noEmit": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "preserveConstEnums": true,
-        "removeComments": false,
-        "skipLibCheck": true,
+        "rootDir": "dist/typescript",
+        "declaration": true,
+        "declarationMap": true,
+        "isolatedModules": false,
+        "noEmit": false,
+        "emitDeclarationOnly": false,
         "noImplicitAny": true,
-        "sourceMap": true,
-        "strict": true,
-        "typeRoots": ["./node_modules/@types", "./typings"],
-        "esModuleInterop": true
+        "moduleResolution": "node"
     },
-    "include": ["packages/**/*", "typings/**/*"],
-    "exclude": ["**/node_modules/**/*", "**/dist/**/*"]
+    "files": ["dist/typescript/index.ts"]
 }
