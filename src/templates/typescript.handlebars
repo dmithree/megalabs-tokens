@@ -1,0 +1,13 @@
+{{#each this as |section|}}
+{{#each section.tokens as |token|}}
+{{#if token.platforms.javascript}}
+{{#if token.platforms.javascript.description}}
+// {{token.platforms.javascript.description}}
+{{/if}}
+{{#if token.deprecated}}
+// @deprecated
+{{/if}}
+export var {{token.platforms.javascript.name}} = {{#ifEquals token.type "string"}}"{{/ifEquals}}{{{token.platforms.javascript.value}}}{{#ifEquals token.type "string"}}"{{/ifEquals}};
+{{/if}}
+{{/each}}
+{{/each}}
