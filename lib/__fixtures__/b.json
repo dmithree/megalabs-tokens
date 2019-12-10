@@ -1,0 +1,9 @@
+{
+  "props": {
+    "TOKEN_B": {
+      "category": "test",
+      "type": "test",
+      "value": "b"
+    }
+  }
+}

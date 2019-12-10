@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert 1`] = `
+"{
+  \\"aliases\\": {},
+  \\"props\\": {
+    \\"TOKEN_B\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"b\\",
+      \\"originalValue\\": \\"b\\",
+      \\"name\\": \\"TOKEN_B\\"
+    },
+    \\"TOKEN_A\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"a\\",
+      \\"originalValue\\": \\"a\\",
+      \\"name\\": \\"TOKEN_A\\"
+    }
+  }
+}"
+`;
+
+exports[`convertSync 1`] = `
+"{
+  \\"aliases\\": {},
+  \\"props\\": {
+    \\"TOKEN_B\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"b\\",
+      \\"originalValue\\": \\"b\\",
+      \\"name\\": \\"TOKEN_B\\"
+    },
+    \\"TOKEN_A\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"a\\",
+      \\"originalValue\\": \\"a\\",
+      \\"name\\": \\"TOKEN_A\\"
+    }
+  }
+}"
+`;
+
+exports[`format 1`] = `
+"{
+  \\"aliases\\": {},
+  \\"props\\": {
+    \\"TOKEN_B\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"b\\",
+      \\"originalValue\\": \\"b\\",
+      \\"name\\": \\"TOKEN_B\\"
+    },
+    \\"TOKEN_A\\": {
+      \\"category\\": \\"test\\",
+      \\"type\\": \\"test\\",
+      \\"value\\": \\"a\\",
+      \\"originalValue\\": \\"a\\",
+      \\"name\\": \\"TOKEN_A\\"
+    }
+  }
+}"
+`;
+
+exports[`transform 1`] = `
+Immutable.Map {
+  "aliases": Immutable.OrderedMap {},
+  "props": Immutable.OrderedMap {
+    "TOKEN_B": Immutable.Map {
+      "category": "test",
+      "type": "test",
+      "value": "b",
+      "originalValue": "b",
+      "name": "TOKEN_B",
+    },
+    "TOKEN_A": Immutable.Map {
+      "category": "test",
+      "type": "test",
+      "value": "a",
+      "originalValue": "a",
+      "name": "TOKEN_A",
+    },
+  },
+}
+`;

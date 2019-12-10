@@ -1,0 +1,12 @@
+{
+  "imports": [
+    "./b.json"
+  ],
+  "props": {
+    "TOKEN_A": {
+      "category": "test",
+      "type": "test",
+      "value": "a"
+    }
+  }
+}
