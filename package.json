@@ -1,6 +1,6 @@
 {
-    "name": "@thumbtack/thumbprint-tokens",
-    "description": "Design variables that power Thumbtack’s UI.",
+    "name": "@megalabs/megalabs-tokens",
+    "description": "Design variables for Megalabs products",
     "version": "10.1.2",
     "main": "dist/javascript-cjs/index.js",
     "module": "dist/javascript-es/index.js",
@@ -27,7 +27,7 @@
         "registry": "https://registry.npmjs.org/",
         "access": "public"
     },
-    "author": "Daniel O'Connor <daniel@danoc.me>",
+    "author": "Dmitry Borisenkov <koorany@gmail.com>",
     "license": "Apache-2.0",
     "devDependencies": {
         "eslint": "^6.6.0",
@@ -48,12 +48,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thumbtack/thumbprint-tokens.git"
+        "url": "git+https://github.com/dmithree/megalabs-tokens.git"
     },
     "bugs": {
-        "url": "https://github.com/thumbtack/thumbprint-tokens/issues"
+        "url": "https://github.com/dmithree/megalabs-tokens/issues"
     },
-    "homepage": "https://thumbprint.design/tokens",
+    "homepage": "https://megafon.bank/design",
     "dependencies": {
         "apollo-server-lambda": "^2.9.7",
         "graphql": "^14.5.8"

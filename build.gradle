@@ -17,7 +17,7 @@ plugins {
 
 apply plugin: 'com.android.library'
 
-archivesBaseName = "thumbprint-tokens"
+archivesBaseName = "megalabs-tokens"
 
 node {
     nodeModulesDir = file("${project.projectDir}")
@@ -51,18 +51,18 @@ android {
     }
 }
 
-task buildThumbprintDistFiles(type: YarnTask) {
+task buildMegalabsDistFiles(type: YarnTask) {
   args = ['run', 'build']
 }
 
-buildThumbprintDistFiles.dependsOn 'yarn'
-preBuild.dependsOn 'buildThumbprintDistFiles'
+buildMegalabsDistFiles.dependsOn 'yarn'
+preBuild.dependsOn 'buildMegalabsDistFiles'
 
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.github.thumbtack'
-            artifact("${buildDir}/outputs/aar/thumbprint-tokens-release.aar")
+            groupId = 'com.github.dmithree'
+            artifact("${buildDir}/outputs/aar/megalabs-tokens-release.aar")
         }
     }
 }
